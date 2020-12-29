@@ -4,8 +4,8 @@ First python coding project.
 ReadMe File
 ================
 
-Date: Dec 19, 2020
-Version: 1
+Date: Dec 19, 2020 | Updated Dec 29, 2020
+Version: 2
 Copyright: n/a
 
 == License ===========================
