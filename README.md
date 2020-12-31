@@ -4,7 +4,7 @@ First python coding project.
 ReadMe File
 ================
 
-Date: Dec 19, 2020 | Updated Dec 29, 2020
+Date: Dec 19, 2020 | Updated Dec 31, 2020
 Version: 2
 Copyright: n/a
 
@@ -35,9 +35,12 @@ None
 
 == Troubleshooting ===============
 Resources used to build this code:
-(URLs or resources here)
+Help and code review from other students
+https://www.programiz.com/python-programming/methods/list/append
+https://linuxcasual.wordpress.com/2020/03/12/python-round-and-square-brackets/
+https://lerner.co.il/2018/06/08/python-parentheses-primer/
 
-URLs last used: December 16, 2020
+URLs last used: December 31, 2020
 
 
 == Contact Information ===============
