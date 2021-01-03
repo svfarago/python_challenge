@@ -79,8 +79,11 @@ https://stackoverflow.com/questions/21019942/write-multiple-lines-in-a-file-in-p
 URLs last used: December 31, 2020
 
 PyPoll:
+https://stackoverflow.com/questions/12897374/get-unique-values-from-a-list-in-python
+https://www.programiz.com/python-programming/methods/list/append
+https://careerkarma.com/blog/python-nameerror-name-is-not-defined/
 
-
+URLs last used: January 2, 2021
 
 == Contact Information ===============
 Boulder, Colorado   United States

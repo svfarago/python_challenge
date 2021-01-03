@@ -2,9 +2,7 @@ Election Results
 ----------------------------
 Total Votes: 3521001
 ----------------------------
-Name: % (votes)
-Name: % (votes)
-Name: % (votes)
-Winner: % (votes)
+O'Tooley: (105630)
 ----------------------------
+Winner: Khan
 ----------------------------
