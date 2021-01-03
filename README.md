@@ -67,7 +67,7 @@ None
 
 
 == Troubleshooting ===============
-Resources used to build this code listed below, in addition to help and code peer review from other students in class.
+Resources used to build this code listed below, in addition to help and code peer review from students in class and tutor (N.Tsai) .
 
 PyBank:
 https://www.programiz.com/python-programming/methods/list/append
@@ -82,8 +82,10 @@ PyPoll:
 https://stackoverflow.com/questions/12897374/get-unique-values-from-a-list-in-python
 https://www.programiz.com/python-programming/methods/list/append
 https://careerkarma.com/blog/python-nameerror-name-is-not-defined/
+https://python-reference.readthedocs.io/en/latest/docs/str/formatting.html (see example 7)
 
-URLs last used: January 2, 2021
+URLs last used: January 3, 2021
+
 
 == Contact Information ===============
 Boulder, Colorado   United States
