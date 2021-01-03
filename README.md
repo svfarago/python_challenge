@@ -4,9 +4,9 @@ First python coding project.
 ReadMe File
 ================
 
-Updated: Jan 1, 2021 | Created: Dec 19, 2020
+Updated: Jan 3, 2021 | Created: Dec 19, 2020
 Version: 3
-Copyright: n/a
+Copyright: open source
 
 == License ===========================
 None. See Installation instructions below for a list of applications.
@@ -34,12 +34,12 @@ Similar applications may also work.
 ---Opening \PyBank files---
 3. Navigate to and open the \PyBank directory.
 4. Type "python main.py" in GitBash terminal window.
-5. Bank summary information should display in the GitBash terminal window. Output file called "output.txt" should be created in \PyBank directory with same bank summary information displayed in the GitBash terminal window.
+5. Bank summary information should display in the GitBash terminal window. Output file called "output.txt" should be created in \PyBank\Analysis directory with same bank summary information displayed in the GitBash terminal window.
 Note: budget_data.csv file is located in the \Resources directory and can be opened with any program able to read .csv files (e.g. Microsoft Excel).
 ---Opening \PyPoll files---
 6. Navigate to and open the \PyPoll directory.
 7. Type "python main.py" in GitBash terminal window.
-8. Voting summary information should display in the GitBash terminal window. Output file called "output.txt" should be created in \PyPoll directory with same voting summary information displayed in the GitBash terminal window.
+8. Voting summary information should display in the GitBash terminal window. Output file called "output.txt" should be created in \PyPoll\Analysis directory with same voting summary information displayed in the GitBash terminal window.
 Note: election_data.csv file is located in the \Resources directory and can be opened with any program able to read .csv files (e.g. Microsoft Excel). The file is extremely large so all data may not be viewable.
 
 9. Close the terminal window.
@@ -51,13 +51,15 @@ Note: election_data.csv file is located in the \Resources directory and can be o
 README.md
 \PyBank
     Main.py
-    output.txt
+    \Analysis
+        output.txt
     \Resources
         budget_data.csv
 
 \PyPoll
     Main.py
-    output.txt
+    \Analysis
+        output.txt
     \Resources
         election_data.csv
 
@@ -88,7 +90,7 @@ URLs last used: January 3, 2021
 
 
 == Contact Information ===============
-Boulder, Colorado   United States
+Colorado   United States
 
 
 == Random Notes ===============
