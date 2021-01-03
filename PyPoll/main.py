@@ -73,14 +73,15 @@ with open(csvpath) as election:
 
 # What: Prints
 # Notes: len counts # items in a container | Use "round" and "2" to round to second decimal otherwise really long decimal number
-# Using {} to convert info to string format 
+# Using {} to convert info to string format
+# The "for i in range" creates a mini-loop to print out the 4 candidates on each line.
+# Otherwise it just lists one candidate and their vote > print(f"name: {candidates} (${(str(candidate_votes))})")
 print("Election Results")
 print("----------------------------")
 print(f"Total Votes: {len(all_votes)}")
 print("----------------------------")
 for i in range(len(candidates)):
-    print(f"{candidates[i]}: ({str(candidate_votes[i])})")  #POTATO > add this once % is fixed ({str(percent_votes[i])})
-# Use above "if" and don't use this as it just lists all candidates and then all votes > print(f"name: {candidates} (${(str(candidate_votes))}) percent votes")
+    print(f"{candidates[i]}: ({str(candidate_votes[i])})")  
 print("----------------------------")
 print(f"Winner: {winner_candidate}")
 print("----------------------------")
@@ -93,9 +94,12 @@ line1 = "Election Results"
 line2 = "----------------------------"
 line3 = str(f"Total Votes: {len(all_votes)}")
 line4 = "----------------------------"
-line5 = str(f"{candidates[i]}: ({str(candidate_votes[i])})")
-line6 = "----------------------------"
-line7 = str(f"Winner: {winner_candidate}")
-line8 = "----------------------------"
-output.write('{}\n{}\n{}\n{}\n{}\n{}\n{}\n{}\n'.format(line1,line2,line3,line4,line5,line6,line7,line8))
+output.write('{}\n{}\n{}\n{}\n'.format(line1,line2,line3,line4))
+for i in range(len(candidates)):
+    line = str(f"{candidates[i]}: ({str(candidate_votes[i])})")
+    output.write('{}\n'.format(line))
+line5 = "----------------------------"
+line6 = str(f"Winner: {winner_candidate}")
+line7 = "----------------------------"
+output.write('{}\n{}\n{}\n'.format(line5,line6,line7))
 
